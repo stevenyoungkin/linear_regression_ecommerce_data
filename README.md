@@ -5,3 +5,12 @@ If there is a problem opening the notebook, please go to https://nbviewer.jupyte
 
 Note to the interpretation of the coefficients. In the simplest case one would assume a balanced design in which the predictors are not correlated. The coefficients are interpreted as the average effect on Y, the target variable, of a one unit increase in X, the predictor, holding all other predictors fixed. This is the case assumed in this project. 
 
+Visualizations:
+- jointplot with pearson coeff/p-value
+	- scatter
+	- reg
+	- hex
+- pairplot (custom y label coordinates)
+- lmplot
+- heatmap
+- displot
